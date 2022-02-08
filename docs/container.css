@@ -1,0 +1,30 @@
+.code-container{
+    border:2px outset #0A7C70;
+    border-radius: 0.3rem;
+    background-color:#ffffff;
+    /* margin:2rem; */
+    padding:1rem;
+    box-sizing: border-box;
+    display:flex;
+    flex-wrap:wrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 80%;
+    max-width: 100%;
+    
+    
+    }
+    .iframe-code {
+        box-sizing: border-box;
+        margin:1rem;
+        width: 100%;   
+        /* padding:1rem ; */  
+    }
+    /* .scroolbar-code{
+      overflow: scroll;
+      overflow-x: hidden; 
+    height: 300px;
+    padding:20px;
+    width: thin;
+    }
+         */

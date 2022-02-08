@@ -1,0 +1,39 @@
+:root {
+    /* colors */
+    --main-Cta-color:#0A7C70;
+    --primary-color: #658F8D;
+    --secondry-color: white;;
+    --text-primary:#FCFCFD;
+    --text-secondry: #0B0A0C;
+    --complementary-red-color: #bb0000;
+    --complementary-light-red-color:#fce4e4;
+    --complementary-dark-blue-color: #3B5998;
+    --complementary-dark-green-color:rgb(19, 105, 19);
+    --complementary-green-color:rgb(49, 190, 49);
+    --complementary-light-green-color:rgb(197, 245, 197);
+    --grey-color:grey;
+    --cartbtn-background-color-primary:yellow;
+    --cartbtn-background-color-secondary:orange;
+
+
+    /* font-size */
+    --size-point:0.5rem;
+    --size-0:1rem;
+    --size-1:1.5rem;
+    --size-2:2.5rem;
+    --size-4:4rem;
+    --size-6:6rem;
+    
+    /* font-weight */
+    --font-bolder:900;
+    --font-bold:600;
+    --font-dark:200;
+    --font-light:100;
+    /* border-radius */
+    --border-radius: 10px;
+    --border-radius-50:50%;
+    --border-radius-5:50px;
+
+    
+  
+}

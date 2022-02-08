@@ -1,0 +1,103 @@
+/* html {
+    scroll-behavior: smooth;
+} */
+
+body {
+    background-color:var(--secondry-color);
+    width: 100%;
+    margin:0;
+}
+.dark-mode{
+background-color:#071925;
+color: white;
+font-weight: 700;
+}
+.container {
+    width: 100%;
+    
+}
+
+main {
+    text-align: center;
+    padding-top: 160px;
+}
+
+main .head {
+    max-width: 700px;
+    width: 80%;
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: var(--size-4);
+    font-weight:var(--font-bolder);
+}
+
+main .sub-head {
+    padding: 2rem 0 0 4rem;
+    max-width: 750px;
+    width: 90%;
+    font-size: var(--size-1);
+    font-weight:var(--font-light);
+    color: var(--text-secondary);
+
+}
+.span{
+    color:var(--main-Cta-color);
+   
+}
+.span-style{
+    color:var(--text-secondary);
+    border:3px solid var(--main-Cta-color); 
+    border-radius:200%;
+    width:100%;
+    padding:0 2rem;
+
+}
+
+main .button {
+    display: flex;
+    width: 300px;
+}
+
+.main-button {
+    background-color:var(--main-Cta-color);
+    color: var(--text-primary);
+    border: none;
+    border-radius:20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 300ms;
+    font-weight: var(--font-bold); 
+    font-size:var(--size-1);
+
+
+}
+.main-button:hover {
+    background-color:var(--primary-color);
+}
+
+@media screen and (max-width : 800px){
+    main .head{
+        font-size: var(--size-2);
+        width: 100%;
+    
+    }
+
+    main .sub-head{
+        font-size: var( --size-1);
+        padding: 2rem 0 1rem 3rem;
+        text-align: left;
+        width: 100%;      
+    }
+    main .button {
+        display: flex;
+        width: 200px;
+    }
+    .main-button {
+        font-size:var(--size-0);
+        padding:  0 ;
+        margin-left:-20rem;
+
+    
+    }
+}

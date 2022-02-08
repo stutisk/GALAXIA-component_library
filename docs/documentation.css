@@ -1,0 +1,42 @@
+.doc-container{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin-top:49px;
+    height:88vh; 
+    overflow-x: hidden;
+   
+  
+    
+}
+.content{
+   width:81%;
+   padding-right: 2rem;
+   padding-left: 2rem;
+   overflow-x: scroll;
+  padding-top: 0.9rem;
+    /* margin:  80px 0px 0px 15px; */  
+}
+
+.content-title{
+    display:inline  ;
+    /* margin:100px; */
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color:#0A7C70;
+}
+
+.content-subtitle{
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 27px;
+    color : #000000;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+nav .examples{
+    text-decoration:none;
+    color:black;
+}
