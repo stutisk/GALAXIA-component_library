@@ -1,0 +1,46 @@
+.alert {
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    width: 80%;
+    border-radius: (--border-radius);
+
+}
+
+.alert-success {
+    background-color: var(--complementary-green-color)
+}
+
+.secondary {
+    background-color: var(--complementary-light-green-color)
+}
+
+.danger {
+    background-color: var(--complementary-light-red-color)
+}
+
+.alert-link {
+
+    color: var(--complementary-dark-blue-color);
+    font-weight: var(--font-bold)
+}
+
+.alert-link:hover {
+
+    color: var(--complementary-red-color);
+    font-weight: var(--font-bold)
+}
+
+.alert-close,
+.btns {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
