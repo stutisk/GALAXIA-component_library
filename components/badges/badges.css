@@ -4,11 +4,7 @@
     margin-top: 40px;
 }
 
-.badge-container {
-    display: flex;
-    gap: 40px;
 
-}
 
 .badge::after {
     content: "12";
@@ -39,7 +35,7 @@
 .icon-container::after {
     border-radius: 50%;
     content: "";
-    font-size: 2rem;
+    font-size: var(--size-1);
     display: inline-block;
     position: relative;
     right: 20px;
