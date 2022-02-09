@@ -1,0 +1,28 @@
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .size-large{
+    width: 70px;
+    height: 70px;
+  }
+  .size-larger{
+    width: 90px;
+    height: 90px;
+  }
+  .size-largest{
+    width: 100px;
+    height: 100px;
+  }
+  .square{
+    border-radius: 2%;
+  }
+
+  .border-green{
+    border: 5px solid rgb(14, 139, 45);
+  }
+  .border-red{
+    border: 5px solid rgb(129, 56, 56);
+  }
