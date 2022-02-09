@@ -20,7 +20,7 @@
     <div class="container">
         <nav class="nav-bar">
             <div class="left-side">
-                <a href="index.html">GALA<span class="span">X!A</span></a>
+                <a href="../../index.html">GALA<span class="span">X!A</span></a>
 
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -56,7 +56,7 @@
                             <hr />
                         </nav>
                         <nav class="drawer-navigation">
-                            <a  href="avatar.html">Avatar</a>
+                            <a href="avatar.html">Avatar</a>
                             <a class="active" href="alerts.html">Alert</a>
                             <a href="badges.html">Badge</a>
                             <a href="button.html">Buttons</a>
@@ -80,17 +80,20 @@
                     Alert
                 </div>
                 <div class="content-subtitle">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi corporis deleniti qui, repellendus
-                    veritatis atque sunt alias ut labore quam esse tempore, reiciendis molestiae nam voluptatibus, magni
-                    assumenda eaque aut!
+                    The alert takes the focus away from the current window, and forces the user to read the important
+                    message.
                 </div>
 
                 <div class="content-subtitle">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi corporis deleniti qui, repellendus
-                    veritatis atque sunt alias ut labore quam esse tempore, reiciendis molestiae nam voluptatibus, magni
-                    assumenda eaque aut!
+                    It prevents the user from accessing other parts of the page until the alert box is closed.
+                    To use this alert just use class name alert and also add class according to alert type.
                 </div>
-                <!-- avatar -->
+                <!-- alerts-->
+                <h2>Simple Alerts:</h2>
+                <div class="content-subtitle">
+                    These are the static examples shown below. It can be categorised into two parts , primary and
+                    secondary alerts.Simple Alerts can be created using alert class.
+                </div>
                 <div class="code-container">
 
                     <div class="alert m-1">
@@ -101,11 +104,14 @@
                     </div>
 
                 </div>
-
                 <div class="iframe-code">
                     <script src="https://gist.github.com/stutisk/52c1d7730eb6c9a37844de581a10b2b5.js"></script>
                 </div>
 
+                <h2>Alerts With Links:</h2>
+                <div class="content-subtitle">
+                    Alerts With Links can be created using alert-link class.
+                </div>
                 <div class="code-container">
                     <div class="alert m-1 ">
                         alert with a <a href="#" class="alert-link"> link</a>.
@@ -119,7 +125,11 @@
                 <div class="iframe-code">
                     <script src="https://gist.github.com/stutisk/c1721d2e68f4caf4be304598d42bdc4a.js"></script>
                 </div>
-
+                <h2> Alerts With Icons:</h2>
+                <div class="content-subtitle">
+                    These alerts have an icon before the message and this can be any error from sucess to error . Alerts
+                    With Icons can be created using alert-success or danger class.
+                </div>
                 <div class="code-container">
                     <div class="alert m-1 alert-success">
                         <span>
@@ -138,9 +148,13 @@
                     <script src="https://gist.github.com/stutisk/a00278f3d3c083639b6481c969238b19.js"></script>
                 </div>
 
+                <h2> Alerts With Dismiss:</h2>
+                <div class="content-subtitle">
+                    Alert can have cross icon to close the alert.Alerts With Dismiss can be created using alert-close
+                    class.
+
+                </div>
                 <div class="code-container">
-
-
                     <div class="alert m-1 danger alert-close">
                         <span>
                             <i class="fas fa-exclamation-triangle"></i> This is warning alert with dismiss
@@ -157,8 +171,8 @@
                     <script src="https://gist.github.com/stutisk/8b8cc57b89caee30e389806df1099377.js"></script>
                 </div>
                 <div class="iframe-code">
-                <script src="https://gist.github.com/stutisk/5c9899183a8dcb5b6b544ee56bbdf512.js"></script>
-            </div>
+                    <script src="https://gist.github.com/stutisk/5c9899183a8dcb5b6b544ee56bbdf512.js"></script>
+                </div>
             </div>
             <script src="alerts.js"></script>
 </body>
