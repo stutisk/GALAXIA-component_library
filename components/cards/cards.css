@@ -1,0 +1,93 @@
+.card {
+    box-shadow: 0px 2px 8px 0px var(--grey-color);
+    text-align: left;
+    cursor: pointer;
+    width:70%;
+    max-width: 100%;
+    background-color:var(--secondary-color);
+ 
+  }
+  
+  .price{
+      color:var(--complementary-red-color);
+      font-weight:var(--font-dark);
+  }
+  .card-title{
+      font-size:var(--size-2)
+  }
+  .text-primary{
+    font-size:var(--size-0);
+    color:var(--complementary-dark-green-color);
+    font-weight: var(--font-dark);
+  }
+  .text-secondary{
+    font-size:var(--size-0);
+    color:var(--complementary-dark-blue-color);
+  }
+  .sub-title{
+      font-weight:var(--font-dark);
+  }
+ .card-btn-container{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+  }
+  .btn{
+    border:none;
+    border-radius:var(--border-radius-5);
+    cursor:pointer;
+     background-color: var(--text-primary);
+  }
+  .btn a{
+      text-decoration:none;
+      font-size:var(--size-0);
+      font-weight:var(--font-dark);
+      color:var(--text-secondry);
+     
+  }
+  .btn-primary{
+    background-color: var(--cartbtn-background-color-primary);
+    
+  }
+  .btn-secondary{
+      background-color:var(--cartbtn-background-color-secondary);
+  }
+  .card-image{
+      align-self: flex-start;
+  }
+  .img-product{
+    max-width: 100%;
+      width:300px;
+      height: 300px;
+  }
+  
+  .card-overlay{
+    position:relative;
+    opacity:0.6;
+  }
+ .card-image-overlay{
+   position:absolute;
+   bottom:250px;
+   display:flex;
+   font-size:var(--size-2);
+   background-color: var(--grey-color);
+   font-weight: var(--font-dark);
+ }
+ 
+ .close-btn{
+     position:relative;
+     left:450px;
+     font-size: var(--size-2);
+     font-weight: var(--font-bold);
+ }
+.close-btn span{
+    color:var(--text-secondry);
+}
+
+.card-Horizontal{
+  display:flex;
+  flex-direction:row;
+}
+.horizontal-card-image{
+  width:450px;
+}
