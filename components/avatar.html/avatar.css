@@ -21,8 +21,8 @@
   }
 
   .border-green{
-    border: 5px solid rgb(14, 139, 45);
+    border: 5px solid var(--complementary-green-color);
   }
   .border-red{
-    border: 5px solid rgb(129, 56, 56);
+    border: 5px solid var(--complementary-red-color);
   }
