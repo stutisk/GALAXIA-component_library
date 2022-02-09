@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>badges</title>
+    <link rel="stylesheet" href="../../docs/components.css">
+    <link rel="stylesheet" href="../../landing page/style.css">
+    <link rel="stylesheet" href="../../docs/navigation.css">
+    <link rel="stylesheet" href="../../docs/sidebar.css">
+    <link rel="stylesheet" href="../../docs/documentation.css">
+    <link rel="stylesheet" href="badges.css">
+</head>
+<script src="https://kit.fontawesome.com/17540dc721.js" crossorigin="anonymous"></script>
+
+<body>
+    <div class="container">
+        <nav class="nav-bar">
+            <div class="left-side">
+                <a href="../../index.html">GALA<span class="span">X!A</span></a>
+
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                </a>
+
+            </div>
+            <div class="right-side">
+                <ul>
+                    <li><a href="#"><i class="fa fa-github"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><a onclick="myFunction()" href="#"><i class="fa fa-moon-o" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- sidebar -->
+        <div class="doc-container">
+            <div class="drawer-container ">
+                <div class="drawer  ">
+                    <aside class="aside scroolbar">
+                        <div class="drawer-header">
+                            <div class="drawer-topic">Get Started</div>
+                            <hr />
+                        </div>
+                        <nav class="drawer-navigation ">
+                            <a href="">Introduction</a>
+                            <a href="">Color</a>
+                            <a href="">Typoraphy</a>
+                            <a href="">Conclusion</a>
+
+                            <div class="drawer-topic">Components</div>
+                            <hr />
+                        </nav>
+                        <nav class="drawer-navigation">
+                            <a href="/components/avatar/avatar.html">Avatar</a>
+                            <a href="/components/alerts/alerts.html">Alert</a>
+                            <a class="active" href="badges.html">Badge</a>
+                            <a href="button.html">Buttons</a>
+                            <a href="cards.html">Card</a>
+                            <a href="images.html">Image</a>
+                            <a href="input.html">Input</a>
+                            <a href="">Text utilities</a>
+                            <a href="">Lists</a>
+                            <a href="">Navigation</a>
+                            <a href="">rating</a>
+                            <a href="">Toast</a>
+                            <a href="">simplified grid</a>
+                        </nav>
+
+                    </aside>
+                </div>
+            </div>
+            <!-- content -->
+            <div class="content">
+                <div class="content-title">
+                    Badges
+                </div>
+                <div class="content-subtitle">
+                    Badges are small circles, positioned either at top-right or bottom-right of the parent component. 
+                </div>
+                <h2> Badges on Icons:</h2>
+                <div class="content-subtitle">
+                    badges can be put on icons which tells us about the number of elements .
+                </div>
+                <div class="code-container">
+
+                    <div class="badge"><i title="shopping-cart" class="fas fa-shopping-cart fa-2x"></i></div>
+                    <div class="badge message"><i title="envelope" class="fas fa fa-envelope fa-2x"></i></div>
+
+                </div>
+                <h2> Badges on Avatars:</h2>
+                <div class="content-subtitle">
+                    badges on avatars tells us about the status of user whetherhe is <code> online / offline </code>.
+                </div>
+                <div class="code-container">
+                    <div class="icon-container"><img src="https://picsum.photos/id/1/80/120" alt="Avatar"
+                            class="avatar "></div>
+                    <div class="icon-container offline-color"><img src="https://picsum.photos/id/1/80/120" alt="Avatar"
+                            class="avatar "></div>
+                    <div class="icon-container red-color"><img src="https://picsum.photos/id/1/80/120" alt="Avatar"
+                            class="avatar ">
+                    </div>
+                </div>
+</body>
+
+</html>

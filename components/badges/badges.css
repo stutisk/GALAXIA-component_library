@@ -1,0 +1,62 @@
+
+.badge {
+    position: relative;
+    margin-top: 40px;
+}
+
+.badge-container {
+    display: flex;
+    gap: 40px;
+
+}
+
+.badge::after {
+    content: "12";
+    background-color: var( --complementary-light-green-color);
+    border-radius: 50%;
+    color: var( --text-secondry);
+    position: absolute;
+    bottom: 25px;
+    left: 30px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding: 1px;
+
+}
+
+.message::after {
+    content: "9+";
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+
+.icon-container::after {
+    border-radius: 50%;
+    content: "";
+    font-size: 2rem;
+    display: inline-block;
+    position: relative;
+    right: 20px;
+    bottom: 1px;
+    text-align: center;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--online-background-color);
+    border: 2px solid var(--secondry-color);
+
+}
+
+.offline-color::after {
+    background-color: var(--offline-background-color);
+}
+
+.red-color::after {
+    background-color: var(--complementary-red-color);
+}
