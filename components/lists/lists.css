@@ -1,0 +1,11 @@
+.lists-container{
+    display:flex;
+    flex-direction:row;
+    gap:50px;
+}
+.stackedlists-container{
+    display:flex;
+    flex-direction:row;
+    border-bottom: 1px solid black;
+   
+}
