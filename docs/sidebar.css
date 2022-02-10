@@ -3,8 +3,7 @@
     padding-top:0.2rem ; 
     font-family: 'Roboto', sans-serif;
     overflow-x:hidden;
-  
-  
+   
 }
 
 .aside {
@@ -18,7 +17,6 @@
     color: #000000;;
     font-weight: 700;
     font-size: 1rem;
-
 }
 .drawer-navigation a.active{
 color:#0A7C70;

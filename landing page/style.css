@@ -1,17 +1,14 @@
-/* html {
-    scroll-behavior: smooth;
-} */
 
 body {
     background-color:var(--secondry-color);
     width: 100%;
     margin:0;
 }
-.dark-mode{
+/* .dark-mode{
 background-color:#071925;
 color: white;
 font-weight: 700;
-}
+} */
 .container {
     width: 100%;
     
@@ -33,7 +30,7 @@ main .head {
 
 main .sub-head {
     padding: 2rem 0 0 4rem;
-    max-width: 750px;
+    max-width: 60%;
     width: 90%;
     font-size: var(--size-1);
     font-weight:var(--font-light);
@@ -55,14 +52,14 @@ main .sub-head {
 
 main .button {
     display: flex;
-    width: 300px;
+    width: 19rem;
 }
 
 .main-button {
     background-color:var(--main-Cta-color);
     color: var(--text-primary);
     border: none;
-    border-radius:20px;
+    border-radius:2rem;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -74,6 +71,7 @@ main .button {
 }
 .main-button:hover {
     background-color:var(--primary-color);
+    color:var(--text-secondry);
 }
 
 @media screen and (max-width : 800px){
@@ -91,7 +89,7 @@ main .button {
     }
     main .button {
         display: flex;
-        width: 200px;
+        width: 12.5rem;
     }
     .main-button {
         font-size:var(--size-0);

@@ -1,7 +1,9 @@
 @import "./spacing.css";
 @import "./base.css";
 @import "./container.css";
-
+@import "./navigation.css";
+@import "./sidebar.css";
+@import "./documentation.css";
 
 ::-webkit-scrollbar{
     width:6px;
