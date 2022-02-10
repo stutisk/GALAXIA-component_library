@@ -1,0 +1,81 @@
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+button {
+    border: none;
+    color: var(--text-color);
+    cursor: pointer;
+    font-weight: var(--font-bold);   
+}
+.primary-btn {
+    background-color: var(--primary-color);
+}
+
+
+.secondry-btn {
+    background-color: var(--complementary-light-green-color);
+}
+
+.outline {
+    background-color: var(--text-primary);
+    border: 2px solid var(--primary-color);
+    color: var(--text-primary);
+}
+
+.outline:hover {
+    background-color: var(--primary-color);
+    color: var(--text-color)
+}
+
+.secondry-outline:hover {
+    background-color: var(--secondry-color);
+}
+.btn-link {
+    color: var(--text-color-secondry);
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+    color:var(--complementary-red-color)
+
+}
+
+.icon-btn {
+    font-size: var(--size-1);
+    background: var(--complementary-dark-blue-color);
+    text-align: center;
+    text-decoration: none;
+    color: var(--text-primary);
+}
+
+.icon-btn:hover {
+    opacity: 0.8;
+
+}
+
+.twitter {
+    background: var(--primary-color);
+}
+
+.insta {
+    background: var(--text-secondry);
+
+}
+
+.youtube {
+    background: var(--complementary-red-color);
+}
+
+.float-btn {
+    background-color: var(--primary-color);
+    color: var(--text-secondry);
+    border-radius: 50%;
+    text-align: center;
+    font-size: var(--size-1);
+
+}

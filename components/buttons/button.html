@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../../docs/components.css">
+    <link rel="stylesheet" href="../../landing page/style.css">
+    <link rel="stylesheet" href="../../docs/navigation.css">
+    <link rel="stylesheet" href="../../docs/sidebar.css">
+    <link rel="stylesheet" href="../../docs/documentation.css">
+    <link rel="stylesheet" href="button.css">
+    <script src="https://kit.fontawesome.com/17540dc721.js" crossorigin="anonymous"></script>>
+    <title>Buttons</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav-bar">
+            <div class="left-side">
+                <a href="../../index.html">GALA<span class="span">X!A</span></a>
+                </a>
+
+            </div>
+            <div class="right-side">
+                <ul>
+                    <li><a href="#"><i class="fa fa-github"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><a onclick="myFunction()" href="#"><i class="fa fa-moon-o" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- sidebar -->
+        <div class="doc-container">
+            <div class="drawer-container ">
+                <div class="drawer  ">
+                    <aside class="aside scroolbar">
+                        <div class="drawer-header">
+                            <div class="drawer-topic">Get Started</div>
+                            <hr />
+                        </div>
+                        <nav class="drawer-navigation ">
+                            <a href="">Introduction</a>
+                            <a href="">Color</a>
+                            <a href="">Typoraphy</a>
+                            <a href="">Conclusion</a>
+
+                            <div class="drawer-topic">Components</div>
+                            <hr />
+                        </nav>
+                        <nav class="drawer-navigation">
+                            <a href="avatar.html">Avatar</a>
+                            <a href="alerts.html">Alert</a>
+                            <a href="badges.html">Badge</a>
+                            <a class="active" href="button.html">Buttons</a>
+                            <a href="cards.html">Card</a>
+                            <a href="images.html">Image</a>
+                            <a href="input.html">Input</a>
+                            <a href="">Text utilities</a>
+                            <a href="">Lists</a>
+                            <a href="">Navigation</a>
+                            <a href="">rating</a>
+                            <a href="">Toast</a>
+                            <a href="">simplified grid</a>
+                        </nav>
+
+                    </aside>
+                </div>
+            </div>
+            <!-- content -->
+            <div class="content">
+                <div class="content-title">
+                    Button
+                </div>
+                <div class="content-subtitle">
+                    buttons are used to submit forms in a document .Apperance of buttons can be changed using CSS
+                </div>
+
+                <div class="content-subtitle">
+                    Buttons allow users to take actions, and make choices, with a single tap.
+                </div>
+                <h2>Primary Buttons:</h2>
+                <div class="content-subtitle">
+                    Primary buttons play a role of CTA buttons . use primary buttons when you want user's attention !
+                </div>
+                <div class="code-container">
+                    <div class="btns">
+                        <button class="primary-btn m-5  btn-padding">PRIMARY</button>
+                        <button class=" outline m-5 btn-padding">OUTLINE</button>
+                        <button class="primary-btn m-5 btn-padding .icon-text-padding-right">
+                            <i class="fas fa-shopping-cart"></i> Add To Cart</button>
+                    </div>
+
+
+                </div>
+                <div class="iframe-code">
+                    <script src="https://gist.github.com/stutisk/3921340cf1830d880a483fb382971c49.js"></script>
+                </div>
+                <h2>Secondary Buttons:</h2>
+                <div class="content-subtitle">
+                    Use secondry buttons when you dont want user's attention !
+                </div>
+                <div class="code-container">
+                    <div>
+                        <button class="secondry-btn m-5 btn-padding">PRIMARY</button>
+                        <button class=" outline secondry-outline m-5 btn-padding">OUTLINE</button>
+                        <button class="secondry-btn m-5 btn-padding .icon-text-padding-right">
+                            <i class="fas fa-shopping-cart"></i> Add To Cart</button>
+
+                    </div>
+                </div>
+                <div class="iframe-code">
+                    <script src="https://gist.github.com/stutisk/b6eed90a5aa7e23df8ec301a387dacc4.js"></script>
+                </div>
+                <h2>Buttons With Links:</h2>
+                <div class="content-subtitle">
+                    Use Link Button to attach a link on your buttons.
+                </div>
+                <div class="code-container">
+                    <div>
+                        <button class="primary-btn link-btn m-5 btn-padding"> <a class="btn-link"
+                                href="https://www.google.com/" target="_blank"> CLICK HERE</a>
+                        </button>
+                        <button class="secondry-btn link-btn m-5 btn-padding"> <a class="btn-link"
+                                href="https://www.google.com/" target="_blank"> CLICK HERE</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="iframe-code">
+                    <script src="https://gist.github.com/stutisk/53e6f3e434fbf7022e7b07c9596d243d.js"></script>
+                </div>
+                <h2>Buttons With Icons:</h2>
+                <div class="content-subtitle">
+                    It makes the user more clear about the purpose of the button .
+                </div>
+                <div class="code-container">
+                    <div>
+                        <button class="icon-btn icon-btn-padding ">
+                            <i class="fa fa-home"></i>
+                        </button>
+                        <button class="icon-btn twitter icon-btn-padding ">
+                            <i class="fa fa-twitter"></i>
+                        </button>
+                        <button class="icon-btn insta icon-btn-padding ">
+                            <i class="fa fa-instagram"></i>
+                        </button>
+                        <button class="icon-btn youtube icon-btn-padding ">
+                            <i class="fa fa-youtube"></i>
+                        </button>
+                    </div>
+
+                </div>
+                <div class="iframe-code">
+                    <script src="https://gist.github.com/stutisk/5ee513d80d088581c9541c2fefe33c8c.js"></script>
+                </div>
+                <h2> Float Buttons :</h2>
+                <div class="content-subtitle">
+                    These buttons are going to be fixed at the right bottom corner .
+                </div>
+                <div class="code-container">
+
+                    <div>
+                        <button class="float-btn icon-btn-padding">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <button class="float-btn icon-btn-padding">
+                            <i class="fas fa-minus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="iframe-code">
+                    <script src="https://gist.github.com/stutisk/0bc3f12284d6ba72f3469683736eca5d.js"></script>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
