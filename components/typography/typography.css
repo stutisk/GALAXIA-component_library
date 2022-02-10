@@ -1,0 +1,24 @@
+.text-lg{
+    font-size: var(--size-2);
+}
+.text-mdm{
+    font-size: var(--size-1);
+}
+.text-rgr{
+    font-size: var(--size-0);
+}
+.text-sml{
+    font-size: var(--size-point);
+}
+.red-color{
+    color:var( --complementary-red-color);
+}
+.grey-color{
+    color:var( --grey-color);
+}
+.left-align{
+    text-align: left;
+}
+.right-align{
+    text-align: right;
+}
