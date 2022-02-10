@@ -1,0 +1,9 @@
+.image-responsive {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .image-round {
+    border-radius: var(--border-radius-50);
+  
+  }
