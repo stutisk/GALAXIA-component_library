@@ -1,0 +1,51 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+p {
+    font-size: var(--size-1);
+}
+
+label {
+    display: block;
+}
+
+.input {
+    border: 1px solid var(--text-secondry);
+    height: 35px;
+    font-size: var(--size-0)
+}
+
+.active-input {
+    border: 3px solid var(--primary-color)
+}
+
+.error-input {
+    background-color: var(--complementary-light-red-color);
+    border: 1.5px solid var(--complementary-red-color);
+}
+
+.error-msg {
+    color: var(--complementary-red-color);
+}
+
+.success-input {
+    background-color: var(--complementary-light-green-color);
+    border: 1.5px solid var(--complementary-green-color);
+}
+
+.success-msg {
+    color: var(--complementary-green-color);
+}
+
+i {
+    padding: 10px;
+}
+
+.icon {
+    position: relative;
+    right: 50px;
+
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../../docs/components.css">
+    <link rel="stylesheet" href="../../landing page/style.css">
+    <link rel="stylesheet" href="../../docs/navigation.css">
+    <link rel="stylesheet" href="../../docs/sidebar.css">
+    <link rel="stylesheet" href="../../docs/documentation.css">
+    <link rel="stylesheet" href="input.css">
+    <script src="https://kit.fontawesome.com/17540dc721.js" crossorigin="anonymous"></script>>
+    <title>Input</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav-bar">
+            <div class="left-side">
+                <a href="../../index.html">GALA<span class="span">X!A</span></a>
+
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                </a>
+
+            </div>
+            <div class="right-side">
+                <ul>
+                    <li><a href="#"><i class="fa fa-github"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-moon-o" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- sidebar -->
+        <div class="doc-container">
+            <div class="drawer-container ">
+                <div class="drawer  ">
+                    <aside class="aside scroolbar">
+                        <div class="drawer-header">
+                            <div class="drawer-topic">Get Started</div>
+                            <hr />
+                        </div>
+                        <nav class="drawer-navigation ">
+                            <a href="">Introduction</a>
+                            <a href="">Color</a>
+                            <a href="">Typoraphy</a>
+                            <a href="">Conclusion</a>
+
+                            <div class="drawer-topic">Components</div>
+                            <hr />
+                        </nav>
+                        <nav class="drawer-navigation">
+                            <a href="avatar.html">Avatar</a>
+                            <a href="alerts.html">Alert</a>
+                            <a href="badges.html">Badge</a>
+                            <a href="button.html">Buttons</a>
+                            <a href="cards.html">Card</a>
+                            <a href="images.html">Image</a>
+                            <a class="active" href="input.html">Input</a>
+                            <a href="">Text utilities</a>
+                            <a href="">Lists</a>
+                            <a href="">Navigation</a>
+                            <a href="">rating</a>
+                            <a href="">Toast</a>
+                            <a href="">simplified grid</a>
+                        </nav>
+
+                    </aside>
+                </div>
+            </div>
+            <!-- content -->
+            <div class="content">
+                <div class="content-title">
+                    Input
+                </div>
+                <div class="content-subtitle">
+                    Inputs make it easier for us when we are interacting with the website. There are different
+                    variations of input
+                </div>
+                <h2>Standard Input:</h2>
+                <div class="content-subtitle">
+                    
+                </div>
+                <div class="code-container">
+                    <div>
+                        <label for="username" class="m-5">Username </label>
+                        <input id="username" type="text" class="input m-0">
+                    </div>
+                </div>
+                <div class="iframe-code">
+                    <script src="https://gist.github.com/stutisk/7ade2971e8f91d71579ec7b45fc54a51.js"></script>
+                </div>
+
+                <h2>Focused Input:</h2>
+
+                <div class="code-container">
+
+                    <div>
+
+                        <label for="email" class="m-5">Email *</label>
+                        <input id="email" type="text" placeholder="Enter your email address "
+                            class="input active-input  m-0">
+                    </div>
+
+                </div>
+                <div class="iframe-code">
+                    <script src="https://gist.github.com/stutisk/d62b1690d2eae64d2db625ce77ed3691.js"></script>
+                </div>
+
+
+                <h2> Input With An Error:</h2>
+                <div class="content-subtitle">
+                    These type of input give an error message if the input is invalid
+                </div>
+                <div class="code-container">
+
+                    <div>
+                        <label for="password" class="m-5">Password *</label>
+                        <input id="password" type="text" class=" input error-input m-0">
+                        <div class="error-msg">Password is a required field</div>
+                    </div>
+
+                </div>
+                <div class="iframe-code">
+                    <script src="https://gist.github.com/stutisk/c8351184220c9d60b91fdfeee60a6014.js"></script>
+                </div>
+
+
+                <h2> Input With A Success Message:</h2>
+                <div class="content-subtitle">
+                  These type of input show a sucess message
+                </div>
+                <div class="code-container">
+                    <div>
+                        <p>Input with success message</p>
+                        <label for="success-password" class="m-5">Password *</label>
+                        <input id=:success-password" type="text" class=" input success-input m-0">
+                        <div class="success-msg">Correct password</div>
+                    </div>
+                </div>
+                <div class="iframe-code">
+                    <script src="https://gist.github.com/stutisk/1d46ce9e807036851db18280b4c6c6fd.js"></script>
+                </div>
+
+
+                <h2> Input With Icons:</h2>
+                <div class="code-container">
+
+                    <div class="icon-container">
+                        <p>Input with icons</p>
+                        <label class="m-5">Search</label>
+                        <input class="input m-0 " type="text">
+                        <i class="fa fa-search icon" aria-hidden="true"></i>
+
+                        <label class="m-5">Username </label>
+                        <input type="text" class="input m-0">
+                        <i class="fa fa-user icon " aria-hidden="true"></i>
+
+                    </div>
+
+                </div>
+                <div class="iframe-code">
+                    <script src="https://gist.github.com/stutisk/024c0f92d57e4f43fd3791ffaca1c8e8.js"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
