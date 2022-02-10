@@ -1,0 +1,44 @@
+.headers-container {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+
+}
+
+.nav-container {
+    max-width: 70%;
+    border: 1px solid var(--text-secondry);
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 80%;
+}
+
+.header {
+    max-width: 100%;
+    background-color: var(--main-Cta-color);
+    color: var(--text-primary);
+    display: flex;
+    flex-direction: row;
+    font-size: var(--size-1);
+    justify-content: space-between;
+    padding: 15px 0;
+
+}
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+}
+
+.prominent-span {
+    display: inline-block;
+    padding: 7rem 0 0 0;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+}
