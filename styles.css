@@ -5,6 +5,8 @@
 @import "./docs/navigation.css";
 @import "./docs/sidebar.css";
 @import "./docs/spacing.css";
+@import "./landing page/style.css";
+
 
 @import "./components/alerts/alerts.css";
 @import "./components/avatar/avatar.css";
