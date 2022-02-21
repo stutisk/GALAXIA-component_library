@@ -1,0 +1,41 @@
+.snackbar-container {
+    background-color: var(--snackbar-color);
+    width: 27rem;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    color: var(--text-primary)
+}
+
+.snackbar,
+button {
+    font-weight: var(--font-dark);
+    font-size: var(--size-0);
+    word-spacing: 5px;
+    border: none;
+    background-color: transparent;
+    font-family: Roboto, sans-serif;
+}
+
+.cancel-snackbar,
+.btn-retry {
+    cursor: pointer;
+    border-radius: var(--border-radius-5);
+    font-weight: var(--font-bold);
+
+}
+
+.btn-retry {
+    color: var(--main-Cta-color);
+}
+.snacbar-btn{
+    background-color:var(--complementary-light-green-color);
+    border:2px solid var(--main-Cta-color);
+    cursor: pointer;
+}
+.snackbar-containerlive{
+    position:fixed; 
+    bottom:2rem;
+    
+}
