@@ -1,6 +1,6 @@
 
-body {
-    background-color:var(--secondry-color);
+body,html {
+    background-color:var(--main-background-color);
     width: 100%;
     margin:0;
 }
@@ -54,7 +54,7 @@ main .button {
     background-color:var(--main-Cta-color);
     color: var(--text-primary);
     border: none;
-    border-radius:2rem;
+    border-radius:var(--border-radius);
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -70,7 +70,10 @@ main .button {
 }
 
 @media screen and (max-width : 800px){
-    main .head{
+    body{
+        width:50%;
+    }
+    /* main .head{
         font-size: var(--size-2);
         width: 100%;
     
@@ -92,5 +95,5 @@ main .button {
         margin-left:-20rem;
 
     
-    }
+    } */
 }
