@@ -1,13 +1,14 @@
-.ratings{
-    cursor:pointer;
+.ratings {
+    cursor: pointer;
 }
-.rated{
-    color:var(--cartbtn-background-color-secondary)
+
+.rated {
+    color: var(--cartbtn-background-color-secondary)
 }
-.badge-rating{
-    background-color:var(--complementary-dark-green-color);
+
+.badge-rating {
+    background-color: var(--complementary-dark-green-color);
     border-radius: var(--border-radius2);
-    color:white;
-  
+    color: white;
     font-size: var(--size-0);
 }
