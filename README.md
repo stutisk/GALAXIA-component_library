@@ -50,8 +50,8 @@ In order to introduce Galaxia to your project, Copy the Link given below and pas
     - Alerts With Icons
     - Alerts With Dismiss
     
-  -Badges
- 
+ - Badges
+  
     - Badges on Icons
     - Badges on Avatars
   
@@ -86,28 +86,28 @@ In order to introduce Galaxia to your project, Copy the Link given below and pas
     - Input With A Success Message
     -Input With Icons
     
-  - Typography
+ - Typography
 
-    -Heading
-    -Different Sizes Of Texts
+    - Heading
+    - Different Sizes Of Texts
     - Different Colors Of Text
  
  
   - Lists
 
-    - Spaced(normal lists ):
-    - Stacked Lists(Notification Page):
+    - Spaced(normal lists )
+    - Stacked Lists(Notification Page)
 
     
-  -Navigation
+ - Navigation
 
     - Standard Navigation  
     - Fixed Header
 
     
-  - Grids
+ - Grids
 
-    - Equal-Widths
+    - EqualWidths
     - Split Grids
 
     
