@@ -1,0 +1,6 @@
+.ratings{
+    cursor:pointer;
+}
+.rated{
+    color:var(--cartbtn-background-color-secondary)
+}
