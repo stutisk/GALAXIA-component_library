@@ -47,6 +47,8 @@
 .padding{
     padding:1rem;
 }
-
+.padding4-8{
+    padding:4px 8px;
+}
 
 /* border-radius */
