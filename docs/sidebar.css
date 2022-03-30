@@ -22,8 +22,8 @@
 color:#0A7C70;
 font-weight: 600;
 font-size: 1.5rem;
-padding-left:4rem;
-
+/* padding-left:4rem;
+ */
 }
 .drawer-navigation1 a{
     display: flex;
