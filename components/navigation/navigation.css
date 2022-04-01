@@ -39,6 +39,6 @@ button {
     background-color: transparent;
     border: none;
     position: relative;
-    top: 10px;
+    top: 0px;
     cursor: pointer;
 }
