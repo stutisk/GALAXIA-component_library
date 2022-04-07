@@ -1,0 +1,20 @@
+.modal-dialog{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.modal{
+    
+    border-radius:var(--border-radius);
+    background:var(--modal-color);
+    width: 350px;
+}
+.modal-button{
+    color:var(--main-Cta-color);
+    background:transparent;
+    font-size:var(--size-0)
+}
+.modal-containerlive{
+    position:fixed; 
+    bottom:7rem;
+}
