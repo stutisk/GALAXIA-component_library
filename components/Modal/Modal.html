@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../../docs/components.css">
+    <link rel="stylesheet" href="../../landing page/style.css">
+    <link rel="stylesheet" href="../Modal/modal.css">
+    <link rel="stylesheet" href="../buttons/button.css">
+    <link rel="stylesheet" href="../alerts/alerts.css">
+    <link rel="stylesheet" href="../snackbar/snackbar.css">
+
+    <script src="https://kit.fontawesome.com/17540dc721.js" crossorigin="anonymous"></script>>
+    <title>Modal||GALAXIA</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav-bar">
+            <div class="left-side">
+                <a href="../../index.html">GALA<span class="span">X!A</span></a>
+            </div>
+            <div class="right-side">
+                <ul>
+                    <li><a href="https://github.com/stutisk/GALAXIA-component_library"><i class="fa fa-github"></i></a>
+                    </li>
+                    <li><a href="https://twitter.com/StutiKumari13"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-moon-o" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- sidebar -->
+        <div class="doc-container">
+            <div class="drawer-container ">
+                <div class="drawer  ">
+                    <aside class="aside scroolbar">
+                        <div class="drawer-header">
+                            <div class="drawer-topic">Get Started</div>
+                            <hr />
+                        </div>
+                        <nav class="drawer-navigation ">
+                            <a href="/components/installation/installation.html">Installation</a>
+                            <div class="drawer-topic">Components</div>
+                            <hr />
+                        </nav>
+                        <nav class="drawer-navigation">
+                            <a href="../avatar/avatar.html">Avatar</a>
+                            <a href="../alerts/alerts.html">Alert</a>
+                            <a href="../badges/badges.html">Badge</a>
+                            <a href="../buttons/button.html">Buttons</a>
+                            <a href="../cards/cards.html">Card</a>
+                            <a href="../images/images.html">Image</a>
+                            <a href="../input/input.html">Input</a>
+                            <a href="../typography/typography.html">Text utilities</a>
+                            <a href="../lists/lists.html">Lists</a>
+                            <a href="../navigation/navigation.html">Navigation</a>
+                            <a href="../grids/grids.html">Grids</a>
+                            <a href="../ratings/ratings.html">Ratings</a>
+                            <a href="../snackbar/snackbar.html">Snackbar</a>
+                            <a class="active" href="../Modal/modal.css">Modal</a>
+                        </nav>
+                    </aside>
+                </div>
+            </div>
+            <!-- content -->
+            <div class="content">
+                <div class="content-title">
+                    Modal
+                </div>
+                <div class="content-subtitle">
+                    A modal is a dialog box/popup window that is displayed on top of the page
+                </div>
+
+                <div class="content-subtitle">
+                    It prevents the user from accessing other parts of the page until the Modal is closed.
+                </div>
+                <!-- modals-->
+                <div class="code-container">
+
+                    <div class="modal-dialog  ">
+                        <div class="modal m-1 padding">
+                            <div class="modal-header ">
+                                <div class=" m-1  alert-close">
+                                    <button type="button" class="btn alert-close-btn ml-a"><i
+                                            class="fas fa-times"></i></button>
+                                </div>
+                                <h2 class="modal-title">
+                                    Modal Title
+                                </h2>
+                            </div>
+                            <div class="modal-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor </p>
+                            </div>
+                            <div class="modal-footer flex-column-end">
+                                <div>
+                                    <button class="modal-button padding4-8">Close</button>
+                                    <button class="modal-button padding4-8">SaveChanges</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="iframe-code">
+                    <script src="https://gist.github.com/stutisk/28c77148ef2f58b00e244c8c60012a0f.js"></script>
+                </div>
+                <div class="code-container">
+                    <div class="modal-dialog modal-dialog-demo modal-containerlive  ">
+                        <div class="modal m-1 padding">
+                            <div class="modal-header ">
+                                <div class=" m-1  alert-close">
+                                    <button type="button" class="btn modal-close alert-close-btn ml-a"><i
+                                            class="fas fa-times"></i></button>
+                                </div>
+                                <h2 class="modal-title">
+                                    Modal Title
+                                </h2>
+                            </div>
+                            <div class="modal-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor </p>
+                            </div>
+                            <div class="modal-footer flex-column-end">
+                                <div>                                
+                                    <button class="modal-button padding4-8">Close</button>
+                                    <button class="modal-button padding4-8">SaveChanges</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <button class="snacbar-btn btn-padding modal-btn" >Show </button>
+
+                </div>
+                <script src="modal.js"></script>
+            </div>
+        </div>
+</body>
+
+</html>
