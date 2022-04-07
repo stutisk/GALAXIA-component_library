@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../../docs/components.css">
+    <link rel="stylesheet" href="../../landing page/style.css">
+    <link rel="stylesheet" href="../slider/slider.css">
+
+    <script src="https://kit.fontawesome.com/17540dc721.js" crossorigin="anonymous"></script>>
+    <title>Slider||GALAXIA</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav-bar">
+            <div class="left-side">
+                <a href="../../index.html">GALA<span class="span">X!A</span></a>
+            </div>
+            <div class="right-side">
+                <ul>
+                    <li><a href="https://github.com/stutisk/GALAXIA-component_library"><i class="fa fa-github"></i></a>
+                    </li>
+                    <li><a href="https://twitter.com/StutiKumari13"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-moon-o" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- sidebar -->
+        <div class="doc-container">
+            <div class="drawer-container ">
+                <div class="drawer  ">
+                    <aside class="aside scroolbar">
+                        <div class="drawer-header">
+                            <div class="drawer-topic">Get Started</div>
+                            <hr />
+                        </div>
+                        <nav class="drawer-navigation ">
+                            <a href="/components/installation/installation.html">Installation</a>
+                            <div class="drawer-topic">Components</div>
+                            <hr />
+                        </nav>
+                        <nav class="drawer-navigation">
+                            <a href="../avatar/avatar.html">Avatar</a>
+                            <a  href="../alerts/alerts.html">Alert</a>
+                            <a href="../badges/badges.html">Badge</a>
+                            <a href="../buttons/button.html">Buttons</a>
+                            <a href="../cards/cards.html">Card</a>
+                            <a href="../images/images.html">Image</a>
+                            <a href="../input/input.html">Input</a>
+                            <a href="../typography/typography.html">Text utilities</a>
+                            <a href="../lists/lists.html">Lists</a>
+                            <a href="../navigation/navigation.html">Navigation</a>
+                            <a href="../grids/grids.html">Grids</a>
+                            <a href="../ratings/ratings.html">Ratings</a>
+                            <a href="../snackbar/snackbar.html">Snackbar</a>
+                            <a  class="active" href="../slider/slider.html">Slider</a>
+                        </nav>
+                    </aside>
+                </div>
+            </div>
+            <!-- content -->
+            <div class="content">
+                <div class="content-title">
+                   Slider
+                </div>
+                <div class="content-subtitle">
+                    A slider is a set of frames in a sequence that can be traversed respectively. These are used to decide range for sound , price, ratings etc.
+                </div>
+                <h2>  Simple Slider:</h2>
+                <div class="code-container">     
+                    <div class="slider">      
+                        <input name="sound" type="range" step="1" min="1" max="10" >       
+                    </div>    
+                </div>
+                <div class="iframe-code">
+                    <script src="https://gist.github.com/stutisk/eed9ff323496577d3ccbe6fbd08615fc.js"></script>
+                </div>
+                <h2> Slider With Number:</h2>
+                <div class="code-container">
+                    <div>
+                        <form  oninput="soundvalue.value= sound.valueAsNumber" ">
+                            <input name="sound" type="range" step="1" min="1" max="100" value="1">
+                            <output name="soundvalue">1</output>
+                        </form>
+                    </div>
+
+                </div>
+                <div class="iframe-code">
+                    <script src="https://gist.github.com/stutisk/fa95a0afaab1a785fdc164b3efcb5ec0.js"></script>
+                </div>
+            </div>
+            <script src="alerts.js"></script>
+</body>
+
+</html>
