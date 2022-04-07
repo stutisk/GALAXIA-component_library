@@ -52,3 +52,13 @@
 }
 
 /* border-radius */
+/* flex */
+.flex-column-start{
+    display:flex;
+    justify-content:flex-start;
+
+}
+.flex-column-end{
+    display:flex;
+    justify-content:flex-end;
+}
